@@ -1,0 +1,11 @@
+@url = https://8080-amabiliemabi-gamesvivi-qe5vrwq341o.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+###
+POST {{url}}/plataformas
+Content-Type: application/json
+
+{
+    "nome": "Xbox"
+}
